@@ -1,0 +1,16 @@
+.carousel::-webkit-scrollbar {
+    height: 5px;
+    border-radius: 9999px;
+    -webkit-border-radius: 9999px;
+    -moz-border-radius: 9999px;
+    -ms-border-radius: 9999px;
+    -o-border-radius: 9999px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
+.carousel:hover::-webkit-scrollbar-thumb {
+    background: #fa704a;
+}
