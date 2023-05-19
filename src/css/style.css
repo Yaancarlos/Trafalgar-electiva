@@ -14,3 +14,7 @@
 .carousel:hover::-webkit-scrollbar-thumb {
     background: #fa704a;
 }
+
+.list-item-one:hover > .list-item-product {
+    opacity: 1;
+}
