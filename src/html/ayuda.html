@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/output.css">
+    <link rel="shortcut icon" href="../img/Screenshot 2023-05-15 000501-fococlipping-standard.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Ayuda</title>
+    <script src="../js/index.js"></script>
+</head>
+<body>
+    <header class="w-full z-50 bg-opacity-90 p-5 relative sm:py-5  bg-white sticky top-0  lg:px-16 lg:px-20 xl:px-24 flex justify-between h-auto items-center">
+        <div class="inline-flex items-center grow"><a href="./index.html">
+            <img class="w-11" src="../img/Screenshot 2023-05-15 000501-fococlipping-standard.png" draggable="false" loading=lazy alt="Logo"></a>
+        </div>
+        <div class="flex md:grow justify-between">
+            <button class="block md:hidden" onclick="showList()">
+                <div class="p-2 border-2 border-solid border-salmon-page rounded-md">
+                    <div class="h-0.5 bg-salmon-page w-6"></div>
+                    <div class="h-0.5 my-1.5 bg-salmon-page w-6"></div>
+                    <div class="h-0.5 bg-salmon-page w-6"></div>
+                </div>
+            </button>
+            <ul class="inline-flex py-5 md:py-0 bg-white z-10 hidden absolute md:contents px-5 md:px-0 sm:px-10 w-full md:w-auto top-[77px] left-0 justify-between flex-col md:flex-row grow" id="list">
+                <ul class="inline-flex gap-5 md:gap-3 flex-col md:flex-row xl:gap-7 mb-5 md:mb-0 items-start md:items-center">
+                    <li><a href="productos.html" class="text-sm md:text-base hover:border-b-2 border-salmon/[.6] text-gray-400 font-normal">Productos</a></li>
+                    <li><a href="peticiones.html" class="text-sm md:text-base hover:border-b-2 border-salmon/[.6] text-gray-400 font-normal">Peticiones</a></li>
+                    <li><a href="sobre.html" class="text-sm md:text-base hover:border-b-2 border-salmon/[.6] text-gray-400 font-normal">Sobre</a></li>
+                    <li><a href="ayuda.html" class="text-sm md:text-base hover:border-b-2 border-salmon/[.6] text-gray-400 font-normal">Ayuda</a></li>
+                </ul>
+                <li class="inline-flex gap-5 md:gap-3 flex-col sm:flex-row xl:gap-7">
+                    <a href="signup.html" class="px-5 block grow text-center transition-colors py-2 rounded-xl md:rounded-full bg-transparent hover:bg-blue-page hover:text-white font-normal lg:font-medium lg:px-7">Iniciar</a>
+                    <a href="signin.html" class="px-5 block grow text-center lg:px-7 py-1.5 transition-colors border-2 border-solid rounded-xl md:rounded-full border-salmon-page text-salmon-page hover:bg-salmon-page hover:text-white">Registrate</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="px-5 py-7 sm:px-10 sm:py-14 md:px-10 md:py-16 lg:px-18 xl:px-24 lg:pb-20 xl:pb-28 w-full h-auto">
+                <div class="overflow-hidden">
+                    <div class="flex flex-col justify-center md:flex-row gap-14">
+                        <div class="md:max-w-sm order-1 flex-col inline-flex">
+                            <h1 class="text-violet text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium md:font-bold">Comunicate</h1>
+                            <p class="text-gray-400 text-sm sm:text-base my-9 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet placeat odit pariatur iure corporis laboriosam vitae alias magnam. Aut consequuntur laudantium temporibus deserunt officia cum deleniti, illum atque suscipit ducimus.</p>
+                            <div class="mb-5">
+                                <i class="bi mr-2 text-emerald bi-telephone-fill"></i>
+                                <span class="text-sm font-normal md:font-medium md:text-lg text-violet sm:text-base">Llamanos al +57 555 505 5050</span>
+                            </div>
+                            <div class="">
+                                <i class="bi mr-2 text-emerald bi-envelope-fill"></i>
+                                <span class="text-sm font-normal md:font-medium md:text-lg text-violet sm:text-base">info@example.com</span>
+                            </div>
+                            <hr class="h-0.5 mt-14 mb-10 bg-gray-100">
+                            <h1 class="text-violet text-lg mb-6 md:text-xl font-medium">Nuestras redes sociales</h1>
+                           <div class="w-full grid grid-cols-2 gap-y-2 gap-x-2 grid-rows-3">
+                                <a href="javascript:void(0)" class="ctc-7">
+                                    <i style="--clr:#1877f2" class="bi mr-2 bi-facebook"></i>
+                                    <span  style="--clr:#1877f2"  class="text-gray-400 text-sm sm:text-base font-normal">Facebook</span>
+                                </a>
+                                <a href="javascript:void(0)" class="ctc-7">
+                                    <i style="--clr:rgb(56 189 248)" class="bi mr-2 bi-twitter"></i>
+                                    <span style="--clr:rgb(56 189 248)"  class="text-gray-400 text-sm sm:text-base font-normal">Twitter</span>
+                                </a>
+                                <a href="javascript:void(0)" class="ctc-7">
+                                    <i style="--clr:#f0002a" class="bi mr-2 bi-pinterest"></i>
+                                    <span style="--clr:#f0002a" class="text-gray-400 text-sm sm:text-base font-normal">Pinterest</span>
+                                </a>
+                                <a href="javascript:void(0)" class="ctc-7">
+                                    <i style="--clr:#0e76a8" class="bi mr-2 bi-linkedin"></i>
+                                    <span style="--clr:#0e76a8"  class="text-gray-400 text-sm sm:text-base font-normal">Linkedin</span>
+                                </a>
+                                <a href="javascript:void(0)" class="ctc-7">
+                                    <i style="--clr:#25D366" class="bi mr-2 bi-whatsapp"></i>
+                                    <span style="--clr:#25D366"  class="text-gray-400 text-sm sm:text-base font-normal">WhatsApp</span>
+                                </a>
+                           </div>
+                        </div>
+                        <form action="" method="" class="w-full  md:max-w-lg w-full">
+                            <h1 class="text-violet text-xl sm:text-2xl md:text-3xl  lg:text-4xl font-medium md:font-bold">Ayuda</h1>
+                            <p class="text-gray-400 text-sm sm:text-base my-5 font-normal">Escribenos!</p>
+                            <div class="bg-white w-full flex flex-col h-full gap-10 rounded-lg">
+                                <div>
+                                    <span class="block mb-3 text-violet text-xs md:text-sm font-medium tracking-widest md:font-bold">E-mail</span>
+                                    <input required type="text" class="px-5 border-2 border-solid border-gray-300 rounded-full w-full py-2" placeholder="Tu email" name="" id="">
+                                </div>
+                                <div>
+                                    <span class="block mb-3 text-violet text-xs md:text-sm font-medium tracking-widest md:font-bold">Mensaje</span>
+                                    <textarea name="" id="" class="border-solid border-2 border-gray-300 rounded-lg py-2.5 text-black h-44 min-h-[175.0px] max-h-44 w-full px-5" placeholder="Escribenos..."></textarea>
+                                </div>
+                                <div class="flex flex-col sm:flex-row items-end gap-5">
+                                    <div class="grow w-full sm:w-auto">
+                                        <span class="block mb-3 text-violet text-xs md:text-sm font-medium tracking-widest md:font-bold">Nombre</span>
+                                        <input required type="text" class="px-5 border-2 border-solid grow w-full border-gray-300 rounded-full py-2" placeholder="Tu nombre" name="" id="">
+                                    </div>
+                                    <button class="bg-blue-page text-white w-full sm:w-auto px-7 py-2.5 hover:bg-violet transition-colors rounded-full">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="w-full h-auto">
+        <div class="w-full h-auto px-5 py-8 sm:px-10 sm:py-14 md:py-18 md:px-14 lg:py-22 text-black bg-gray-100 lg:px-24 relative">
+            <div class="grid gap-7 max-w-7xl mx-auto grid-cols-2 sm:grid-cols-3 sm:grid-rows-2 lg:grid-cols-5 lg:grid-rows-1">
+                <div class="col-start-1 col-end-3">
+                    <figure>
+                        <img class="w-48" src="../img/unioninformativa-fococlipping-standard.png" alt="">
+                    </figure>
+                    <p class="text-sm md:text-base font-normal max-w-sm my-10">We have created the product thst will help your Startup to look even better</p>
+                    <form action="" method="" class="flex max-w-sm flex-col md:flex-row gap-5">
+                        <input type="email" required name="" class="px-5 bg-transparent py-1.5 border-2 border-solid border-gray-300 w-full rounded-full grow" placeholder="Tu email" id="">
+                        <button type="submit" class="bg-blue-page rounded-full px-2 md:px-5 py-1.5 text-white">Subscibirse</button>
+                    </form>
+                    <ul class="inline-flex mt-16 gap-7">
+                        <li class="hover:underline-offset-2 hover:underline"><a href="javascript:void(0)" class="text-xs md:text-sm lg:text-base">Accesibilidad</a></li>
+                        <li class="hover:underline-offset-2 hover:underline"><a href="javascript:void(0)" class="text-xs md:text-sm lg:text-base">Politica de privacidad</a></li>
+                    </ul>
+                </div>
+                <ul>
+                    <li class="first:pb-5"><h1 class="text-lg md:text-xl font-medium md:font-bold">Sobre</h1></li>
+                    <li class="hover:underline-offset-2 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Sobre la empresa</a></li>
+                    <li class="hover:underline-offset-2 py-3 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Privacidad</a></li>
+                    <li class="hover:underline-offset-2 pb-3 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Atencion al cliente</a></li>
+                    <li class="hover:underline-offset-2 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Contactanos</a></li>
+                </ul>
+                <ul>
+                    <li class="first:pb-5"><h1 class="text-lg md:text-xl font-medium md:font-bold">Categorias</h1></li>
+                    <li class="hover:underline-offset-2 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Eventos</a></li>
+                    <li class="hover:underline-offset-2 py-3 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Informacion</a></li>
+                    <li class="hover:underline-offset-2 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Seguridad</a></li>
+                    <li class="hover:underline-offset-2 py-3 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Noticias Relevantes</a></li>
+                    <li class="hover:underline-offset-2 pb-3 hover:underline"><a  class="text-xs md:text-base" href="javascript:void(0)">Ayuda</a></li>
+                </ul>
+                <div class="flex justify-start gap-3 col-start-1 col-end-3 sm:col-end-4 sm:col-start-3 lg:col-start-auto lg:col-end-auto items-start flex-col">
+                    <button class="bg-blue-page text-white w-full sm:w-auto rounded-full px-5 py-2 bg-blue-page">Escribenos</button>
+                    <button class="bg-transparent rounded-full w-full sm:w-auto px-5 hover:underline"></button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -14,3 +14,17 @@
 .carousel:hover::-webkit-scrollbar-thumb {
     background: #fa704a;
 }
+
+.list-item-one:hover > .list-item-product {
+    opacity: 1;
+}
+
+.Check-1:checked ~ span {
+    background-color: #fa704a;
+    color: #fff;
+}
+
+
+.ctc-7:hover > span , .ctc-7:hover > i{
+    color: var(--clr) !important;
+  }
