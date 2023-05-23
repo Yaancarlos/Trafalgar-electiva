@@ -23,3 +23,8 @@
     background-color: #fa704a;
     color: #fff;
 }
+
+
+.ctc-7:hover > span , .ctc-7:hover > i{
+    color: var(--clr) !important;
+  }
