@@ -18,3 +18,8 @@
 .list-item-one:hover > .list-item-product {
     opacity: 1;
 }
+
+.Check-1:checked ~ span {
+    background-color: #fa704a;
+    color: #fff;
+}
